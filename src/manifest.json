@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Rethread",
+  "version": "1.1.0",
+  "description": "Merge selected messages into one thread by rewriting their In-Reply-To/References headers. Replies to any merged message then join the thread too.",
+  "author": "ac",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rethread@duti.dev",
+      "strict_min_version": "128.0"
+    }
+  },
+  "background": {
+    "scripts": ["rethread-core.js", "background.js"]
+  },
+  "icons": {
+    "32": "icon.svg",
+    "64": "icon.svg"
+  },
+  "permissions": [
+    "menus",
+    "notifications",
+    "accountsRead",
+    "messagesRead",
+    "messagesDelete",
+    "messagesImport"
+  ]
+}

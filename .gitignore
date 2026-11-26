@@ -1,0 +1,9 @@
+# Deploy key and other local-only files
+dev/
+
+# Build output
+dist/
+*.xpi
+
+.DS_Store
+node_modules/
