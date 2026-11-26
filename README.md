@@ -6,7 +6,8 @@ messages, right-click, and choose **Merge into one thread**.
 It is for mail that should be one conversation but isn't, such as support
 tickets where every reply arrives as a new message.
 
-Requires Thunderbird 128 or later. Tested end to end on Thunderbird 161.
+<img alt="excalidraw screenshot" src="https://github.com/user-attachments/assets/839dcf76-915c-4ddf-8410-527477553e59" />
+
 
 ## Install
 
@@ -66,7 +67,7 @@ byte.
 
 ## Things to know
 
-- **Back up first.** Rethread rewrites messages. The originals go to Trash
+- Rethread rewrites messages. The originals go to Trash
   (unless the account deletes immediately), so check the result before you
   empty it.
 - Threads exist only within one folder, so all selected messages must be in
